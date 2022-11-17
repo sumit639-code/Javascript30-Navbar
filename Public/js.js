@@ -16,6 +16,6 @@ close.addEventListener('click',()=>products.style.display = "none");
 window.addEventListener('resize', function(event) {
     men.style.display="none"
 }, true);
-window.addEventListener('click', function(event) {
-    men.style.display="none"
-}, true);
+// window.addEventListener('click', function(event) {
+//     men.style.display="none"
+// }, true);
