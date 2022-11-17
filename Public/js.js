@@ -13,4 +13,9 @@ op.addEventListener('click',()=>men.style.display = "flex");
 close.addEventListener('click',()=>men.style.display="none");
 close.addEventListener('click',()=>products.style.display = "none");
 
-
+window.addEventListener('resize', function(event) {
+    men.style.display="none"
+}, true);
+window.addEventListener('click', function(event) {
+    men.style.display="none"
+}, true);

@@ -50,7 +50,7 @@ body{
     top: 12%;
     padding: 25px;
     border-radius: 15px;
-    left: 27%;
+    /* left: 27%; */
     opacity: 1;
     transition: 1s ease-in-out;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.128);
@@ -223,7 +223,13 @@ body{
     body{
         margin: 30px 100px;
     }
+
 }
+/* @media only screen and (max-width:2050) {
+    .products{
+        left: 40%;
+    }
+} */
 @media only screen and (max-width:1060px) {
     body{
         margin: 30px 50px;
@@ -247,7 +253,15 @@ body{
     .logo{
         margin-right: auto;
     }
-    
+    .login2{
+        display: block;
+        flex-direction: column;
+        margin: 5px 0px;
+        text-align: center;
+    }
+    .login2 button{
+        margin: 10px;
+    }
 }
 
 .menu-nav{
@@ -313,6 +327,9 @@ body{
 @media only screen and (max-width:550px){
     .products{
         width: 300px;
+    }
+    .font{
+        font-size: 40px;
     }
 }
 
